@@ -25,7 +25,7 @@ A feedback-driven sparse attention framework treating sparsity and skip decision
 ## Publications
 
 - **Self-Tuning Sparse Attention: Multi-Fidelity Hyperparameter Optimization for Transformer Acceleration (Accepted at MiTA 2026)**
-  Self-optimizing sparse attention framework using Bayesian optimization and multi-fidelity search, achieving 3.4× faster tuning and 8.8× fewer evaluations for transformer acceleration
+    Self-optimizing sparse attention framework using Bayesian optimization and multi-fidelity search, achieving 3.4× faster tuning and 8.8× fewer evaluations for transformer acceleration
   [[arXiv](https://arxiv.org/abs/2603.18417)]
 
 - **Efficient Domain Adaptation for Text Line Recognition via Decoupled Language Models (Accepted at MiTA 2026)**
