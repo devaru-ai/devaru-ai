@@ -1,19 +1,46 @@
+<h1 align="center">Arundhathi Dev</h1>
 
-I'm a Graduate Student Researcher at the University of Cincinnati with a focus on **LLM inference, Model optimization, and high-performance computing**.
+<p align="center">
+  <b>LLM Inference Systems • CUDA/Triton • vLLM • Distributed Serving • KV Cache Optimization</b><br/>
+</p>
 
-<a href="https://www.linkedin.com/in/devaru-ai/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-</a>
+<div align="center">
 
-#### Recent Highlights:
-- [Building a High-Throughput LLM Inference System: A vLLM-inspired Approach](https://github.com/devaru-ai/recreating-vllm-core)
+[<img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/devaru-ai/) 
+[<img src="https://img.shields.io/badge/Inference%20at%20Scale-000000.svg?&style=for-the-badge&logo=none&logoColor=white" />](https://devaru-ai.github.io/inference-at-scale/posts/llm-serving.html)
+[<img src="https://img.shields.io/badge/Substack-FF6719.svg?&style=for-the-badge&logo=substack&logoColor=white" />](https://inferenceatscale.substack.com/)
+[<img src="https://img.shields.io/badge/Google%20Scholar-4285F4.svg?&style=for-the-badge&logo=google&logoColor=white" />](https://scholar.google.com/citations?user=mrtOLIQAAAAJ&hl=en)
 
-#### Recent Projects:
-- LLM inference engine focused on high-throughput batch processing and KV cache management [[Repo](https://github.com/devaru-ai/recreating-vllm-core)].
-- Hardware-aware Triton kernel for practical sparse attention gains [[Repo](https://github.com/devaru-ai/triton-sparse-attention)].
-- Custom GPU kernel for matrix multiplication fused with bias addition and GELU activation [[Repo](https://github.com/devaru-ai/fused-gemm-activation)].
+</div>
 
-#### Research Focus:
+<!--I'm a Graduate Student Researcher at the University of Cincinnati with a focus on **LLM inference, Model optimization, and high-performance computing**.-->
+
+
+
+## Publications
+- **Self-Tuning Sparse Attention: Multi-Fidelity Hyperparameter Optimization for Transformer Acceleration (Accepted at MiTA 2026)**
+  Self-optimizing sparse attention framework using Bayesian optimization and multi-fidelity search, achieving 3.4× faster tuning and 8.8× fewer evaluations for transformer acceleration.
+  [[arXiv](https://arxiv.org/abs/2603.18417)]
+- **Efficient Domain Adaptation for Text Line Recognition via Decoupled Language Models (Accepted at MiTA 2026)**  
+  Modular detection-and-correction framework enabling annotation-free domain adaptation with ~95% compute reduction via decoupled visual and language models.  
+  [[arXiv](https://arxiv.org/abs/2603.28028)]
+
+
+  
+## Decoding Systems & vLLM-Style Inference
+
+- **High-Throughput LLM Inference System (vLLM-inspired)**  
+  Built a scalable inference engine focused on KV cache management, batching efficiency, and high-throughput LLM serving.  
+  Repo: https://github.com/devaru-ai/recreating-vllm-core
+
+- **Hardware-Aware Sparse Attention Kernel (Triton)**  
+  Developed a Triton kernel for sparse attention with improved memory bandwidth utilization and practical performance gains.  
+  Repo: https://github.com/devaru-ai/triton-sparse-attention
+
+- **Fused GPU Kernel (GEMM + Bias + GELU)**  
+  Implemented a custom CUDA kernel fusing matrix multiplication, bias addition, and GELU activation for reduced memory overhead and higher throughput.  
+  Repo: https://github.com/devaru-ai/fused-gemm-activation
+
 
 <!--
 **devaru-ai/devaru-ai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
