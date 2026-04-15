@@ -23,12 +23,15 @@
 A feedback-driven sparse attention framework treating sparsity and skip decisions as adaptive control variables, achieving up to 5.5× speedup with <0.03 L1 error and 85–95% sparsity across LLaMA 3.1, CogVideoX, and Stable Diffusion 3.5.
 
 ## Publications
-- **Self-Tuning Sparse Attention: Multi-Fidelity Hyperparameter Optimization for Transformer Acceleration (Accepted at MiTA 2026)**
-  Self-optimizing sparse attention framework using Bayesian optimization and multi-fidelity search, achieving 3.4× faster tuning and 8.8× fewer evaluations for transformer acceleration.
-  [[arXiv](https://arxiv.org/abs/2603.18417)]
-- **Efficient Domain Adaptation for Text Line Recognition via Decoupled Language Models (Accepted at MiTA 2026)**  
-  Modular detection-and-correction framework enabling annotation-free domain adaptation with ~95% compute reduction via decoupled visual and language models.
-  [[arXiv](https://arxiv.org/abs/2603.28028)] 
+
+* **Self-Tuning Sparse Attention: Multi-Fidelity Hyperparameter Optimization for Transformer Acceleration (Accepted at MiTA 2026)** 
+  Self-optimizing sparse attention framework using Bayesian optimization and multi-fidelity search, achieving 3.4× faster tuning and 8.8× fewer evaluations for transformer acceleration.
+  [[arXiv](https://arxiv.org/abs/2603.18417)]
+
+* **Efficient Domain Adaptation for Text Line Recognition via Decoupled Language Models (Accepted at MiTA 2026)** <br/>
+  Modular detection-and-correction framework enabling annotation-free domain adaptation with ~95% compute reduction via decoupled visual and language models.
+  [[arXiv](https://arxiv.org/abs/2603.28028)]
+
   
 ## Decoding Systems & vLLM-Style Inference
 
