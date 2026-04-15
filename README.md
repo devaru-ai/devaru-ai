@@ -25,7 +25,6 @@
   Modular detection-and-correction framework enabling annotation-free domain adaptation with ~95% compute reduction via decoupled visual and language models.  
   [[arXiv](https://arxiv.org/abs/2603.28028)]
 
-
   
 ## Decoding Systems & vLLM-Style Inference
 
@@ -42,6 +41,22 @@
   Repo: https://github.com/devaru-ai/fused-gemm-activation
 
 
+## Inference at Scale (Blog)
+- **Serving LLMs in Production: vLLM vs TensorRT-LLM vs SGLang**  
+  Comparison of dominant LLM serving frameworks focusing on KV cache management, batching strategies, and throughput tradeoffs.
+  [[Read 🛠️](https://devaru-ai.github.io/inference-at-scale/posts/llm-serving.html)]
+
+- **Scaling LLMs in Practice: Parallelism Strategies and MoE**  
+  Breakdown of data, tensor, and pipeline parallelism in large-scale training, and the real cost of Mixture-of-Experts systems.
+  [[Untangle the parallelism 🧵](https://devaru-ai.github.io/inference-at-scale/posts/parallelism-moe.html)]
+
+- **From Prefill to Decode: How Modern LLM Inference Actually Works**  
+  End-to-end view of LLM inference pipelines including KV caching, continuous batching, chunked prefill, and speculative decoding.
+  [[Read 🚀](https://devaru-ai.github.io/inference-at-scale/posts/inference-pipeline.html)]
+
+- **From FlashAttention to PagedAttention: How Memory Shapes LLM Inference**  
+  Explores attention compute optimizations and KV cache memory fragmentation solutions across modern inference systems.
+  [[Peek into memory layers ⚙️](https://devaru-ai.github.io/inference-at-scale/posts/memory-attention.html)] 
 <!--
 **devaru-ai/devaru-ai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
