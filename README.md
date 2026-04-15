@@ -7,7 +7,7 @@
 <div align="center">
 
 [<img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/devaru-ai/) 
-[<img src="https://img.shields.io/badge/Inference%20at%20Scale-000000.svg?&style=for-the-badge&logo=none&logoColor=white" />](https://devaru-ai.github.io/inference-at-scale/posts/llm-serving.html)
+[<img src="https://img.shields.io/badge/Inference%20at%20Scale-000000.svg?&style=for-the-badge&logo=none&logoColor=white" />](https://devaru-ai.github.io/inference-at-scale/)
 [<img src="https://img.shields.io/badge/Substack-FF6719.svg?&style=for-the-badge&logo=substack&logoColor=white" />](https://inferenceatscale.substack.com/)
 [<img src="https://img.shields.io/badge/Google%20Scholar-4285F4.svg?&style=for-the-badge&logo=google&logoColor=white" />](https://scholar.google.com/citations?user=mrtOLIQAAAAJ&hl=en)
 
@@ -55,15 +55,15 @@ A feedback-driven sparse attention framework treating sparsity and skip decision
 
 - **Scaling LLMs in Practice: Parallelism Strategies and MoE**  
   Breakdown of data, tensor, and pipeline parallelism in large-scale training, and the real cost of Mixture-of-Experts systems.
-  [[Untangle the parallelism 🧵](https://devaru-ai.github.io/inference-at-scale/posts/parallelism-moe.html)]
+  [[Untangle the parallelism 🧵](https://devaru-ai.github.io/inference-at-scale/posts/scaling-llms.html)]
 
 - **From Prefill to Decode: How Modern LLM Inference Actually Works**  
   End-to-end view of LLM inference pipelines including KV caching, continuous batching, chunked prefill, and speculative decoding.
-  [[Read 🚀](https://devaru-ai.github.io/inference-at-scale/posts/inference-pipeline.html)]
+  [[Read 🚀](https://devaru-ai.github.io/inference-at-scale/posts/prefill-to-decode.html)]
 
 - **From FlashAttention to PagedAttention: How Memory Shapes LLM Inference**  
   Explores attention compute optimizations and KV cache memory fragmentation solutions across modern inference systems.
-  [[Peek into memory layers ⚙️](https://devaru-ai.github.io/inference-at-scale/posts/memory-attention.html)] 
+  [[Peek into memory layers ⚙️](https://devaru-ai.github.io/inference-at-scale/posts/flash-attention-to-paged-attention.html)] 
 <!--
 **devaru-ai/devaru-ai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
