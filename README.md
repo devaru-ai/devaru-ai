@@ -15,7 +15,12 @@
 
 <!--I'm a Graduate Student Researcher at the University of Cincinnati with a focus on **LLM inference, Model optimization, and high-performance computing**.-->
 
+## Adaptive Sparse Attention (Ongoing Research)
 
+*Self-tuning sparsity as a control problem for efficient long-context and multimodal inference.*
+
+- **AdaSparge: Self-Tuning Sparse Attention for Scalable AI Inference and Deployment**  
+A feedback-driven sparse attention framework treating sparsity and skip decisions as adaptive control variables, achieving up to 5.5× speedup with <0.03 L1 error and 85–95% sparsity across LLaMA 3.1, CogVideoX, and Stable Diffusion 3.5.
 
 ## Publications
 - **Self-Tuning Sparse Attention: Multi-Fidelity Hyperparameter Optimization for Transformer Acceleration (Accepted at MiTA 2026)**
